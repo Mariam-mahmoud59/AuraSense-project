@@ -12,7 +12,7 @@ export default function Header() {
         <p className='text-[#C7CDD5] mt-4'>EmoVision is an advanced AI-powered system that combines emotion recognition and object detection to provide deep contextual understanding of human interactions in real-time.</p>
       </div>
       <div className='w-1/3 '>
-      <img src='/src/assets/photo_2025-03-08_19-40-05.jpg' className=''/>
+      <img src='/src/assets/AKlogo.png' className=''/>
       </div>
     </div>
   )
