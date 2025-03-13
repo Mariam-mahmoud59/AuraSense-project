@@ -21,7 +21,7 @@ export default function Register() {
       );
 
       setMessage("Registration successful! Redirecting...");
-      setTimeout(() => navigate("abdoooooooooooooooooooooo"), 2000);  // Change the path to the login page
+      setTimeout(() => navigate("./Home.jsx"), 2000);  // Change the path to the login page
     } catch (error) {
       console.error("Registration Error:", error.response?.data);
       setMessage(error.response?.data?.message || "Registration failed. Please try again.");
@@ -42,8 +42,8 @@ export default function Register() {
   return (
     <div className="flex md:flex-row flex-col-reverse justify-evenly pt-24 py-5 gap-2 bg-transparent">
       <form onSubmit={form.handleSubmit} className="w-1/2">
-        <h2 className="font-bold text-4xl mb-2">Get Started Shopping</h2>
-        <p className="mb-4 text-gray-600">Welcome to FreshCart! Enter your details to sign up.</p>
+        <h2 className="font-bold text-4xl mb-2">Get Started at AuraSense</h2>
+        <p className="mb-4 text-gray-600"> Enter your details to sign up.</p>
 
         {message && <p className="mb-4 text-center text-red-500">{message}</p>}
 
